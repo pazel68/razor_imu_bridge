@@ -16,12 +16,12 @@ def generate_launch_description():
                 executable='razor_imu_node',
                 name='razor_imu',
                 parameters=[{
-                    'accel_x_offset': -0.249796,
-                    'accel_y_offset': 0.349799,
-                    'accel_z_offset': 0.160357,
-                    'gyro_x_offset': -0.000499,
-                    'gyro_y_offset': -0.000793,
-                    'gyro_z_offset': -0.000195
+                    'accel_x_offset': -0.155379,
+                    'accel_y_offset': 0.053448,
+                    'accel_z_offset': 0.030605,
+                    'gyro_x_offset': -0.000822,
+                    'gyro_y_offset': -0.001320,
+                    'gyro_z_offset': -0.000517
                 }]
             ),
             launch_ros.actions.Node(
